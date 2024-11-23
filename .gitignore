@@ -1,0 +1,92 @@
+############################################################
+################# GITIGNORE: PROJECT LEVEL #################
+############################################################
+
+
+
+# |---------------------- Build Tools ---------------------|
+# Web Essentials
+node_modules/
+.next/
+.pnp
+.pnp.js
+
+
+
+# |----------------- Build Generated Files ----------------|
+bin/
+build/
+target/
+out/
+
+
+
+# |---------------------- Log Files ----------------------|
+*.log
+
+
+
+# |---------------- IDE Configuration Files ---------------|
+# IntelliJ
+.idea/
+.run/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+
+
+# |--------------------- Package Files --------------------|
+*.zip
+*.tar.gz
+
+
+
+# |----------------------- Documents ----------------------|
+pdf/
+PDF/
+*.pdf
+*.PDF
+
+
+
+# |---------------- Version Control System ----------------|
+
+
+
+# |------------------- Operating System -------------------|
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+*.ini
+*.lnk
+
+
+
+# |--------------------- Miscellaneous --------------------|
+.DS_Store
+
+
+
+# |----------------------- Security -----------------------|
+*.pem
+*.key
+*.pub
+.env
+!example.env
+
+
+
+############################################################
